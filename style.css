@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+.banner,
+.portfolio-caption,
+.bg-primary{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.hr-primary {
+    background-color: #f05f40;
+    width: 50px;
+    outline: 1px solid rgba(240, 95, 64, 0.55);
+    border: 1px solid rgba(240, 95, 64, 0.55);
+    margin: 0px auto;
+}
+
+.banner {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .container{
+    height: 55px;
+    padding-top: 2.5px;
+    transition: all .3s ease;
+}
+
+.navbar-default .navbar-brand{
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 700;
+    color: #f05f40;
+    transition: all .3s ease;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #f05f40; 
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #222;
+    font-size: 1.3rem;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 700;
+    transition: all .2s ease;
+}
+
+.navbar-default .navbar-nav > li:hover > a{
+    color: #f05f40;
+    transition: all .3s ease;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: white;
+}
+
+.navbar-header > .active a{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar-default-stick{
+    background-color: rgba(255, 255, 255, 0); 
+    border: none;
+    transition: all .3s ease;
+}
+
+.navbar-default-stick .container{
+    height: 60px;
+    padding-top: 5px;
+    transition: all .3s ease;
+}
+
+.navbar-default-stick .navbar-brand{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.navbar-default-stick .navbar-brand:hover{
+    color: white; 
+}
+
+.navbar-default-stick .navbar-nav > li > a{
+    color: rgba(255, 255, 255, 0.7);
+
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.navbar-default-stick .navbar-nav > li:hover > a{
+    color: white;
+}
+
+.navbar-default-stick .navbar-collapse, .navbar-default .navbar-form{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default-stick .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.active a{
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: #f05f40 !important;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .jumbotron {
+    background-color: transparent;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header .jumbotron h1 {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+header .jumbotron h3 {
+    font-family: 'merriweather', 'serif';
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.btn-lg {
+    border-radius: 300px;
+    background-color: #f05f40;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.bg-primary {
+
+    background-color: #f05f40;
+}
+
+.bg-primary .jumbotron {
+    background-color: #f05f40;
+    color: white;
+    text-align: center;
+}
+
+.bg-primary .hr-primary {
+    background-color: white;
+    outline: 1px solid rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.bg-primary>.jumbotron h2 {
+    font-size: 3.6rem;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+.bg-primary>.jumbotron h4 {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    line-height: 2.8rem;
+    font-family: 'merriweather', 'serif';
+}
+
+.bg-primary>.jumbotron .btn-lg{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+.call-to-action>.jumbotron .btn-lg {
+    background-color: white;
+    color: black;
+}
+
+.services {
+    padding: 100px 0;
+    height: 53vh;
+}
+
+.services>.container>h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.service {
+    padding: 30px;
+    text-align: center;
+}
+
+.service h4 {
+    color: grey;
+}
+
+.service i {
+    font-size: 6rem;
+    color: #f05f40
+}
+
+.portfolio .col-lg-4,
+.portfolio .col-md-4,
+.portfolio .col-sm-6,
+.portfolio .col-xs-12{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.thumbnail{
+    padding: 0;
+    margin: 0;
+    border: none;
+    z-index: 0;
+}
+
+.portfolio-caption{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 12;
+    bottom: 0;
+    color: white;
+    background-color: #f05f40;
+    opacity: 0;  
+    transition: all .2s ease;
+}
+
+.portfolio-caption:hover{
+    color: white;
+    background-color: #f05f40;
+    opacity: 0.9;  
+}
+
+.portfolio-caption h3{
+    padding: 0;    
+    margin: 0;
+}
+
+.call-to-action .jumbotron{
+    padding: 2%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.call-to-action>.jumbotron h2 {
+    padding: 10px;
+    font-size: 3.6rem;;
+}
+
+.contact{
+    height: 50vh;;
+}
+
+.contact .row{
+    text-align: center;
+    display: flex;
+    margin: 5% 0;
+}
+
+.contact .row .col-lg-9{
+   margin: 0 auto;
+}
+
+.contact h2{
+    padding: 10px;
+    font-size: 3.5rem;
+}
+
+.contact h4{
+    padding: 10px;
+    line-height: 3rem;
+    font-family: 'merriweather', 'serif';
+}
+
+.elements h4{
+    margin: 0;
+    padding: 0;
+}
+
+.contact i {
+    font-size: 5.5rem;
+}
+
+.contact a{
+    color: #f05f40;
+}
