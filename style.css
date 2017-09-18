@@ -225,7 +225,9 @@ header .jumbotron h3 {
 
 .service i {
     font-size: 6rem;
-    color: #f05f40
+    color: #f05f40;
+    transform: scale(0);
+    animation-fill-mode: forwards;
 }
 
 .portfolio .col-lg-4,
@@ -317,4 +319,24 @@ header .jumbotron h3 {
 
 .contact a{
     color: #f05f40;
+}
+
+.invisible{
+    transform: scale(0);
+}
+
+.zoom-in{
+    animation: zoom-in 0.3s linear;
+}
+
+@keyframes zoom-in{
+    0%{
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
