@@ -329,6 +329,16 @@ header .jumbotron h3 {
     animation: zoom-in 0.3s linear;
 }
 
+#download-button{
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+.anim-icon{
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
 @keyframes zoom-in{
     0%{
         transform: scale(0);
